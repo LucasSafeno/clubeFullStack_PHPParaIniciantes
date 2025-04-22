@@ -1,5 +1,8 @@
 <?php
 
-$name = 'Lucas';
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-echo $name;
+    var_dump($_FILES);
+}
+
+?>
