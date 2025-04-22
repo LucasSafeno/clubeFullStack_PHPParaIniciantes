@@ -1,0 +1,17 @@
+{
+    "name": "safeno/clube-full-stack_php-para-iniciantes",
+    "autoload": {
+        "psr-4": {
+            "Safeno\\ClubeFullStackPhpParaIniciantes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Safeno",
+            "email": "lugnorio@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
